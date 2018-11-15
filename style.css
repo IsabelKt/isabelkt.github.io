@@ -1,0 +1,58 @@
+/** * means add to everything**/
+/** boarder box, specifing means that the width remains, even if later add padding to change size**/
+*{
+    position:relative;
+    box-sizing: boarder box;
+}
+
+body{
+    margin:0;
+    padding:0;
+}
+
+#bodywrap{
+    width: 95%;
+    margin: auto;
+    padding-left:40%;
+    padding-top:10%;
+    padding-right:80%;
+    color:navy;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.box-1 {
+    position: fixed;
+    top:0;
+    left:0;
+    height: 14%;
+    width: 25%;
+    background: lightgrey;
+    margin:0;
+    background-color:bisque;
+    color:white;
+
+  }
+/** id's vs classes**/
+.box-2 {
+    position:relative;
+    width: 500px;
+    height: 200px;
+    margin:0;
+    background:pink;
+    color:white
+  }
+
+  /** to make an item in absolute position bleed beyong the boundaries it is already respecting then
+  add negative numbers in right, left, top, or bottom as needed, look below at right:-10px**/
+  .box-3{
+    bottom: 0px;
+    right: -20px;
+    position: absolute;
+    height: 100px;
+    width: 50%;
+    background: darkgray;
+    margin:0;
+    background-color:coral;
+    color:white
+  }
+  
